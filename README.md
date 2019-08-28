@@ -21,7 +21,7 @@ cd angular-and-spring-application
 java -jar target/*.jar
 * for the front end : 
 
-git clone https://github.com/ALLAMSOUKAINA/angular-and-spring-application-the-front-end.git
+git clone  https://github.com/ALLAMSOUKAINA/angular-and-spring-application-the-front-end.git
 
 
 # Working with the application in your IDE
