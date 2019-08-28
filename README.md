@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # angular-and-spring-application
 an application that has been build with angular 6 , hibernate,bootstrap 4,java7 and  the spring framworks : spring boot,spring mvc,spring data jpa
 it is a maven application
@@ -24,40 +23,29 @@ You can then access the application here: http://localhost:4200/
 
 # Working with the application in your IDE
 
-# Prerequisites
-The following items should be installed in your system:
-back end
-Java 7 or newer.
-git command line tool (https://help.github.com/articles/set-up-git)
-Your preferred IDE
-Eclipse with the m2e plugin. Note: when m2e is available, there is an m2 icon in Help -> About dialog. If m2e is not there, just follow the install process here: https://www.eclipse.org/m2e/
-Spring Tools Suite (STS)
-front end
-VS Code
-webstorm
-atom
-node js
-# Steps:
-# for the back end 
-run mysql server using the  port 3306
-On the command line
-git clone https://github.com/ALLAMSOUKAINA/angular-and-spring-application.git
-Inside Eclipse or STS
-File -> Import -> Maven -> Existing Maven project
-Run the application main method by right clicking on it and choosing Run As -> spring Application.
-# for the front end 
-Inside VS Code or webstorm or  atom
-File -> open folder and choose de folder of the front end 
+### Prerequisites
+#### back end :
+* Java 7 or newer. 
+•	git command line tool (https://help.github.com/articles/set-up-git) 
+* Your preferred IDE Eclipse . 
+* Spring Tools Suite (STS) 
+#### front end :
+* VS Code
+* webstorm 
+* atom 
+* node js
 
- 
- 
+### Steps:
+#### for the back end
++ run mysql server using the port 3306
++ On the command line git clone https://github.com/ALLAMSOUKAINA/angular-and-spring-application-the-backend-part.git 
++ Inside Eclipse or STS File -> Import -> Maven -> Existing Maven project Run the application main method by right clicking on it and choosing Run As -> spring Application.
 
-
-
-
+#### for the front end
++ Inside VS Code or webstorm or atom File -> open folder and choose de folder of the front end
 
 =======
-# Springapi
+# Application de gestion des produits
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.0.
 
@@ -84,4 +72,3 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
->>>>>>> update front end workspace
