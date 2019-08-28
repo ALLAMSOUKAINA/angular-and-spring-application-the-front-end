@@ -10,18 +10,18 @@ all the servers ports  and database configurations  can be modified on the file 
 
 
 # Running the application locally
+* for the backend : 
 
-You can build a jar file and run it from the command line:
-
-git clone https://github.com/ALLAMSOUKAINA/angular-and-spring-application.git
+git clone https://github.com/ALLAMSOUKAINA/angular-and-spring-application-the-backend-part.git
 
 cd angular-and-spring-application
 
 ./mvnw package
 
 java -jar target/*.jar
+* for the front end : 
 
-You can then access the application here: http://localhost:4200/
+git clone https://github.com/ALLAMSOUKAINA/angular-and-spring-application-the-front-end.git
 
 
 # Working with the application in your IDE
