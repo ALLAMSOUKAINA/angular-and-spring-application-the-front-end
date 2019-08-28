@@ -1,4 +1,4 @@
-# angular-and-spring-application
+# Angular and spring application
 an application that has been build with angular 6 , hibernate,bootstrap 4,java7 and  the spring framworks : spring boot,spring mvc,spring data jpa
 it is a maven application
 it is a CRUD application that allows to manage the stock of products
@@ -14,8 +14,11 @@ all the servers ports  and database configurations  can be modified on the file 
 You can build a jar file and run it from the command line:
 
 git clone https://github.com/ALLAMSOUKAINA/angular-and-spring-application.git
+
 cd angular-and-spring-application
+
 ./mvnw package
+
 java -jar target/*.jar
 
 You can then access the application here: http://localhost:4200/
