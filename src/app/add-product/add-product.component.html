@@ -1,0 +1,20 @@
+<div class="container-fluid bg">
+    <form class= "form-container" #produit="ngForm" (ngSubmit)=" addProduct(produit.value)">
+        <h2>Ajouter un produit </h2>
+
+ <div class="form-group">
+      <label >Nom:</label>
+    <input type="text"  class="form-control" placeholder="nom" [(ngModel)]="produit.nom" name="nom" >
+  </div>
+  <div class="form-group">
+      <label >Prix $:</label>
+    <input type="text"  class="form-control" placeholder="prix" [(ngModel)]="produit.prix" name="prix">
+  </div>
+  <div class="form-group">
+      <label >Product quantity:</label>
+    <input type="text"  class="form-control" placeholder="quantity" [(ngModel)]="produit.quantity" name="quantity">
+  </div>
+  <br>
+    <input type="submit"  class="btn btn-success btn-block" value="add Product">
+  </form>
+</div>

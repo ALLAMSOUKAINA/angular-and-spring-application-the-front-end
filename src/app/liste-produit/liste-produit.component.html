@@ -1,0 +1,63 @@
+<div class="container-fluid  bg">
+    <div class="float-left" style="width: 70%">
+<h1>Liste des produits</h1>
+<br>
+
+<div class="form-inline" >
+  <label class="mr-sm-2">Entrer le matricule du produit:</label>
+  <input type="text" [(ngModel)]="idapi" placeholder="id"  class="form-control mb-2 mr-sm-2">
+
+  <button type="button" class="btn btn-primary   mb-2 mr-sm-2 "  (click)="searchID()">search</button>
+  <br>
+  <button type="button" class="btn btn-success  mb-2 mr-sm-2 btn-block" style="margin-right: 5px;
+margin-bottom: 5px ;" (click)="list()">show list of product</button>
+</div>
+
+<br>
+
+  <table class="table table-striped">
+    <thead>
+      <th>Product ID</th>
+      <th>Product name</th>
+      <th>Product prix $</th>
+      <th>Product quantity</th>
+      <th >Delete product</th>
+      <th >Edit product</th>
+
+    </thead>
+    <tbody *ngIf="show">
+      <tr *ngFor="let produit of produits">
+        <td>{{produit?.id}}</td>
+        <td>{{produit?.nom}}</td>
+        <td>{{produit?.prix}}</td>
+        <td>{{produit?.quantity}}</td>
+        <td> <button type="button" class="btn btn-danger btn-block" (click)="supprimer(produit.id)"> 
+          <span class="glyphicon glyphicon-remove"></span> Remove 
+        </button></td>
+        <td>  <span class="glyphicon glyphicon-edit"></span><button type="button" class="btn btn-warning btn-block " (click)="edit(produit.id)"> 
+            Edit
+          </button></td>
+      </tr>
+    </tbody>
+    <tbody *ngIf="search">
+        <tr >
+          <td>{{produits?.id}}</td>
+          <td>{{produits?.nom}}</td>
+          <td>{{produits?.prix}}</td>
+          <td>{{produits?.quantity}}</td>
+          <td> <button type="button" class="btn btn-danger btn-block " (click)="supprimer(produit.id)"> 
+              <span class="glyphicon glyphicon-remove"></span> Remove 
+            </button></td>
+            <td>  <span class="glyphicon glyphicon-edit"></span><button type="button" class="btn btn-warning btn-block " (click)="edit(produit.id)"> 
+                Edit
+              </button></td>
+        </tr>
+      </tbody>
+  </table>
+
+</div>
+<div class="mx-auto  center d-flex p-2 ">           </div>
+<div class="float-right " style="width: 30% ;background-color: burlywood">
+  <app-edit [name]="editProduct"></app-edit>
+</div>
+</div>

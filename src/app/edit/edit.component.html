@@ -1,0 +1,33 @@
+<div class="container" >
+
+<div class="panel panel-primary col-md-offset-2 col-md-12   mx-auto " style="position: center;">
+    <div class="panel-heading text-center" >
+    </div>
+ 
+
+  <div class="panel-body">
+  <form class ="form-container" #produits="ngForm" (ngSubmit)=" editProduct(produits.value)" >
+      <h6> Modifier les caractéristiques d'un produit   </h6>
+
+      <div class="form-group">
+          <label >ID:</label>
+        <input type="text"  class="form-control"   [(ngModel)]="produit" name="id" >
+      </div>
+<div class="form-group">
+    <label >Nom:</label>
+  <input type="text"  class="form-control"  [(ngModel)]="produits.nom"  name="nom">
+</div>
+<div class="form-group">
+    <label >Prix $: </label>
+  <input type="text"  class="form-control"  [(ngModel)]="produits.prix" name="prix">
+</div>
+<div class="form-group">
+    <label >Product  quantity:</label>
+  <input type="text"  class="form-control"  [(ngModel)]="produits.quantity" name="quantity" >
+</div>
+  <input type="submit"  class="btn btn-warning btn-block" style="position: center;" value="Edit Product">
+</form>
+</div>
+</div>
+</div>
+

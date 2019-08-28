@@ -1,0 +1,35 @@
+
+.bg{
+    padding-top: 1%;
+    
+    padding-bottom: 1%;
+    background-image: url('t.png') ;  
+    background-color: #444040; /* Used if the image is unavailable */
+   /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+}
+h2{
+color: rgb(28, 148, 88);
+position: center;
+/*margin-left: 30vh;*/
+}
+.form-container{
+    background-color: rgb(186, 201, 195);
+    position: center;
+    margin: 10vh;
+    margin-right: 25vh;
+    margin-left: 40vh;
+    margin-bottom: 10vh;
+    height: auto;
+    color:rgba(0,0,0,0.75);
+    border: 1px solid #fff;
+    padding: 50px 60px;
+    padding-left: 70px;
+    width: 60%;
+    -webkit-box-shadow: -1px 4px 26px 11px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 4px 26px 11px rgba(0,0,0,0.75);
+box-shadow: -1px 4px 26px 11px rgba(0,0,0,0.75);
+    
+}

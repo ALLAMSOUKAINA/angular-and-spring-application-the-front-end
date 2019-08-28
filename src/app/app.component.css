@@ -1,0 +1,38 @@
+body, html {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+
+    
+
+    } 
+.bg{ 
+    padding-top: 19%;
+    
+    padding-bottom: 25%; 
+    margin: 0 ;
+    padding: 0;
+    background-image: url('ae.jpg') ; width:100%;height:auto;
+    background-color: #bd1717; /* Used if the image is unavailable */
+    /* You must set a specified height */
+     background-position: center center; /* Center the image */
+     background-repeat: no-repeat; /* Do not repeat the image */
+     background-size: contain;
+     -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+
+}
+
+.navbar{
+    height: 10vh;
+    margin: none;
+    background-color: cornflowerblue;
+    color: aliceblue;
+    display: flex;
+
+
+}
+a{
+    color: aliceblue
+}

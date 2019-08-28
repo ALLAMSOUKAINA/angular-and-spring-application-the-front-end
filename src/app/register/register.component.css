@@ -1,0 +1,42 @@
+body, html {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+
+    
+
+    }
+.bg{ 
+    margin: 0 auto;
+
+    background-image: url('6551.jpg') ; width:100%;height:auto;
+    background-color: #bd1717; /* Used if the image is unavailable */
+    /* You must set a specified height */
+     background-position: center center; /* Center the image */
+     background-repeat: no-repeat; /* Do not repeat the image */
+     background-size: contain;
+     -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+
+  
+}
+.form-container{
+    position: center;
+    margin: 10vh;
+    color: aliceblue;
+    border: 1px solid #fff;
+    padding: 50px 60px;
+    width: 70%;
+    -webkit-box-shadow: -1px 4px 26px 11px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 4px 26px 11px rgba(0,0,0,0.75);
+box-shadow: -1px 4px 26px 11px rgba(0,0,0,0.75);
+    
+}
+.col-md-8{
+    margin: 10px;
+    position: center;
+
+    
+}
+

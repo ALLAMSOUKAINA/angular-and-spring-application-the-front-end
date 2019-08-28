@@ -1,0 +1,19 @@
+.bg{
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    
+    padding-bottom: 42%; 
+    background-image: url('655.jpg') ; width:100%;height:auto; 
+    background-color: #bd1717; /* Used if the image is unavailable */
+    /* You must set a specified height */
+     background-position: center center; /* Center the image */
+     background-repeat: no-repeat; /* Do not repeat the image */
+     background-size: contain;
+     -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+h1{
+    color:royalblue;
+}

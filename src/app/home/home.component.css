@@ -1,0 +1,47 @@
+
+.bg{
+    padding-top: 19%;
+    
+    padding-bottom: 15%; 
+
+    background-image: url('grey.png'),url('img1.jpg') ;  
+    background-color: #444040; /* Used if the image is unavailable */
+   /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    
+    
+}
+.title{
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    height: 70%;
+
+    width: 100%;
+   
+    -webkit-box-shadow: -1px 4px 26px 11px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 4px 26px 11px rgba(0,0,0,0.75);
+box-shadow: -1px 4px 26px 11px rgba(0,0,0,0.75);
+}
+h1{
+    position: center;
+
+    padding-left: 30%;
+    padding-right: 30%;
+
+    color: black;
+  
+}
+div.col-md-offset-2 {
+    position: center;
+    height: 100px;
+    width: 350px;
+
+    
+}
+button{
+    height: 50px;
+    width: 150px;
+    position: center;
+}

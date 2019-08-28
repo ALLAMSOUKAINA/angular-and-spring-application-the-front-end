@@ -1,0 +1,26 @@
+body, html {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+
+    
+
+    } 
+.bg{  
+    margin: 0 auto;
+    background-image: url('ae.jpg') ; width:100%;height:auto; 
+    background-color: blueviolet; /* Used if the image is unavailable */
+    /* You must set a specified height */
+     background-position: center center; /* Center the image */
+     background-repeat: no-repeat; /* Do not repeat the image */
+     background-size: contain;
+     -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+ 
+
+  
+}
+footer{
+    color: aliceblue
+}
